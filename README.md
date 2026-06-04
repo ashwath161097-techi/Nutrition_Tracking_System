@@ -32,7 +32,3 @@ To ensure optimal performance and scalable reporting, the analytical environment
 * **Target vs. Achievement:** Tracking actual metrics against national nutritional goals.
 * **Regional Disparities:** Identifying high-performing vs. critical-priority districts to optimize resource distribution.
 * **Trend Analysis:** Monitoring month-over-month progress in institutional deliveries and supplemental nutrition intake.
-
----
-└── README.md                         # Project documentation
-
