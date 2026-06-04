@@ -1,29 +1,38 @@
-# Nutrition_Tracking_System
-Indian Nutrition and Anganwadi Statistics Dataset
-## Overview
+# Nutrition Tracking System
 
-This repository contains a comprehensive dataset related to India's POSHAN (nutrition) and Anganwadi statistics. The dataset includes information about Anganwadi centers, beneficiaries, nutrition indicators, infrastructure, attendance, and maternal-child health statistics across Indian states and districts.
+An advanced data analytics and visualization project designed to monitor, track, and evaluate nutritional outcomes and implementation metrics under the POSHAN Abhiyaan initiative. This repository contains the data processing pipelines, visualization scripts, and the final executive monitoring report.
 
-The dataset can be used for:
+## 📌 Project Overview
+This project transforms raw tracking data into actionable insights for healthcare and administrative stakeholders. By leveraging structured data modeling and robust visualization, the system tracks key performance indicators (KPIs) related to maternal and child nutrition, institutional delivery rates, and regional performance.
 
-- Data analysis
-- Public health research
-- Nutrition monitoring
-- Government scheme evaluation
-- Machine learning projects
-- Dashboard and visualization development
-- Policy research
+### Key Deliverables
+* **Executive Summary Report:** A high-quality analytical document (`POSHAN_Abhiyaan_Monitoring_Report_v5.pdf`) detailing core findings and strategic recommendations.
+* **Data Pipelines:** Automated data cleaning and transformation scripts for consistent reporting.
 
-- ## Key Features
+---
 
-The dataset includes:
+## 🛠️ Tech Stack & Architecture
 
-- State and district level records
-- Anganwadi center statistics
-- Worker and helper counts
-- Child nutrition indicators
-- Pregnant and lactating mother statistics
-- Health infrastructure metrics
-- Attendance and food distribution statistics
-- Rural and urban Anganwadi data
-- Tribal and PVTG-related indicators
+### Tools & Languages
+* **Data Processing:** Python (`pandas`, `numpy`)
+* **Visualization:** `matplotlib`, `seaborn`
+
+
+### Data Modeling (Star Schema)
+To ensure optimal performance and scalable reporting, the analytical environment is structured using a **Star Schema**:
+* **Fact Table:** Stores core transactional metrics (e.g., monthly tracking logs, nutritional measurements, distribution records).
+* **Dimension Tables:** Contains contextual attributes including:
+  * `Dim_Demographics` (Age groups, target demographics)
+  * `Dim_Geography` (State, District, Block-level metadata)
+  * `Dim_Time` (Standardized calendar and fiscal periods)
+
+---
+
+## 📊 Key Insights Captured
+* **Target vs. Achievement:** Tracking actual metrics against national nutritional goals.
+* **Regional Disparities:** Identifying high-performing vs. critical-priority districts to optimize resource distribution.
+* **Trend Analysis:** Monitoring month-over-month progress in institutional deliveries and supplemental nutrition intake.
+
+---
+└── README.md                         # Project documentation
+
