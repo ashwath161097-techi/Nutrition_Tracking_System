@@ -6,7 +6,7 @@ An advanced data analytics and visualization project designed to monitor, track,
 This project transforms raw tracking data into actionable insights for healthcare and administrative stakeholders. By leveraging structured data modeling and robust visualization, the system tracks key performance indicators (KPIs) related to maternal and child nutrition, institutional delivery rates, and regional performance.
 
 ### Key Deliverables
-* **Executive Summary Report:** A high-quality analytical document (`POSHAN_Abhiyaan_Monitoring_Report_v5.pdf`) detailing core findings and strategic recommendations.
+* **Executive Summary Report:** A high-quality analytical document detailing core findings and strategic recommendations.
 * **Data Pipelines:** Automated data cleaning and transformation scripts for consistent reporting.
 
 ---
